@@ -1,0 +1,44 @@
+body{
+	width: 499px;
+    border: 5px solid #000;
+}
+
+div {
+    background-color: rgb(230, 107, 107);
+    width: 500px;
+    height: 250px;
+}
+
+h1{
+	font-size: 100px;
+	position: absolute;
+	top:-10px;
+	left: 30px;
+	color:white;
+}
+h2{
+	font-size: 50px;
+	position: absolute;
+	top: 120px;
+	left: 30px;
+	color: white;
+}
+table {
+    width: 500px;
+    height: 200px;
+    color: rgb(162, 160, 154);
+}
+
+
+.head {
+    color: rgb(230, 107, 107);
+    text-align: left;
+}
+
+.other_days {
+    color: rgb(204, 206, 216);
+}
+
+.today {
+    color: rgb(230, 107, 107);
+}

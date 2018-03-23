@@ -1,0 +1,108 @@
+body {
+    width: 320px;
+    border: 1px solid #000;
+}
+
+.shop_list {
+    margin-left: 10px;
+}
+
+.head_header {
+    /*    margin-left: 10px;*/
+    margin-right: 10px;
+}
+
+.hheader_first {
+    margin-bottom: -10px;
+}
+
+.hheader_second {
+    border-bottom: 10px solid #000;
+}
+
+.hfooter_first {
+    font-weight: bold;
+}
+
+.hfooter_third {
+    padding-left: 40px;
+}
+
+.head_body {
+    padding-bottom: 0px;
+    border-bottom: 2px solid #000;
+}
+
+.body {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.b_first_child {
+    padding-left: 190px;
+}
+
+.b_bold {
+    font-weight: bold;
+}
+
+.percent {
+    position: absolute;
+    left: 280px;
+}
+
+.inside {
+    padding-left: 20px;
+}
+
+.body_bottom {
+    border-bottom: 10px solid #000;
+}
+
+.footer {
+    font-size: 12px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.inline {
+    /*	padding-left: 0px;*/
+    /*	display: inline;*/
+    list-style-type: circle;
+}
+
+.bottom_line {
+    border-bottom: 2px solid #000;
+}
+
+.head_second_col {
+    position: absolute;
+    left: 160px;
+}
+
+.second_col {
+    position: absolute;
+    left: 160px;
+}
+
+.second_col_more {
+    position: absolute;
+    left: 216px;
+}
+
+.third_col {
+    position: absolute;
+    left: 280px;
+}
+
+.inside_more {
+    padding-left: 40px;
+}
+
+.inside_line {
+    margin-left: 20px;
+}
+
+ul li {
+    border-bottom: 2px solid #000;
+}

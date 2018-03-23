@@ -1,0 +1,32 @@
+html {
+    background-color: rgba(0,0,0,0.5);
+}
+
+table {
+    border-collapse: collapse;
+    width: 800px;
+    height: 200px;
+    border: 1px solid #000;
+}
+
+.head {
+    background-color: rgb(39, 174, 96);
+    text-align: left;
+    color: white;
+}
+
+.odd {
+    background-color: rgb(246, 246, 246);
+}
+
+.even {
+    background-color: rgb(233, 233, 233);
+}
+
+tr {
+    width: 600px;
+}
+
+.first_row {
+    padding-left: 10px;
+}
