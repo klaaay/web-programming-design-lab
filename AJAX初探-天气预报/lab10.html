@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>lab10</title>
+    <link rel="stylesheet" href="css/lab10.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/lab10.js"></script>
+</head>
+
+<body>
+    <div class="container" style="background-color:#999999;">
+        <div class="row">
+            <div class="col-md-12">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span id="city"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="air">
+                    <div class="air-decoration">
+                        <i class="fa fa-pagelines" aria-hidden="true"></i>
+                    </div>
+                    <div class="text">
+                        <span id="aqi">XX</span>
+                        <span id="qlty">XX</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 Horizontal">
+                <span id="temp-now">XX</span>
+            </div>
+            <div class="col-md-1 Horizontal">
+                <div id="temp-icon">
+                </div>
+            </div>
+            <div class="col-md-2 Horizontal">
+                <span id="temp-text-now">XX</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <i class="fa fa-tint" aria-hidden="true"></i>
+                <span>湿度</span>
+                <span id="hum_now">XX</span>
+            </div>
+            <div class="col-md-3">
+                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                <span id="wind_now">XX</span>
+            </div>
+        </div>
+        <div>
+            <table class="table">
+                <caption>预报</caption>
+                <tbody>
+                    <tr>
+                        <td>今天</td>
+                        <td id="cond_txt_d0" style="padding-bottom: 20px;">XX</td>
+                        <td>
+                            <span id="tmp_min0">XX</span>/
+                            <span id="tmp_max0">XX</span>
+                        </td>
+                        <td>
+                            <span id="wind_dir0">XX</span>
+                            <span id="wind_sc0">XX</span>
+                        </td>
+                        <td id="uv_index0">XX</td>
+                    </tr>
+                    <tr>
+                        <td>明天</td>
+                        <td id="cond_txt_d1" style="padding-bottom: 20px;">XX</td>
+                        <td>
+                            <span id="tmp_min1">XX</span>/
+                            <span id="tmp_max1">XX</span>
+                        </td>
+                        <td>
+                            <span id="wind_dir1">XX</span>
+                            <span id="wind_sc1">XX</span>
+                        </td>
+                        <td id="uv_index1">XX</td>
+                    </tr>
+                    <tr>
+                        <td>后天</td>
+                        <td id="cond_txt_d2" style="padding-bottom: 20px;">XX</td>
+                        <td>
+                            <span id="tmp_min2">XX</span>/
+                            <span id="tmp_max2">XX</span>
+                        </td>
+                        <td>
+                            <span id="wind_dir2">XX</span>
+                            <span id="wind_sc2">XX</span>
+                        </td>
+                        <td id="uv_index2">XX</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <div id="myCarousel" class="carousel slide">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div></div>
+                    </div>
+                    <div class="item">
+                        <div></div>
+                    </div>
+                    <div class="item">
+                        <div></div>
+                    </div>
+                </div>
+
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

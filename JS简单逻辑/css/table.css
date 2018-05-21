@@ -1,0 +1,44 @@
+html{
+    background: grey;
+}
+
+tr {
+    height: 200px;
+}
+
+td {
+    width: 300px;
+    text-align: center;
+    font-size:36px;
+    border: 2px solid white;
+    color: white;
+}
+
+#tbl {
+    border: 2px solid #000;
+    border-collapse: collapse;
+}
+
+.a {
+    background: black;
+}
+
+.b {
+    background: black;
+}
+
+.c {
+    background: black;
+}
+
+.d {
+    background: black;
+}
+
+.e {
+    background: black;
+}
+
+.f {
+    background: black;
+}

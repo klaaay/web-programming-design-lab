@@ -1,0 +1,7 @@
+.BIGbox{
+	display: flex;
+}
+
+.ITEM{
+	margin-right: 20px;
+}

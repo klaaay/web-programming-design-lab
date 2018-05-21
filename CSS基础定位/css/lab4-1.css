@@ -1,0 +1,256 @@
+.head1 {
+    font-size: 0;
+}
+
+
+.nav {
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 24px;
+    color:rgb(88,88,88);
+    border: 1px solid rgb(247,247,247);
+    margin: 0 auto;
+    background: rgb(247,247,247);
+}
+
+.nav:hover{
+	font-weight: bold;
+	color:#000;
+}
+
+.head2 {
+    width: 348px;
+    height: 92px;
+    border: 1px solid rgb(247,247,247);
+}
+
+.h2_1 {
+    width: 300px;
+    height: 20px;
+    margin: 15px auto;
+    border: 1px solid rgb(191,191,191);
+}
+
+.h2_2 {
+    width: 300px;
+    height: 20px;
+    margin: 15px auto;
+    border: 1px solid rgb(191,191,191);
+}
+
+.body1 {
+    width: 348px;
+    height: 168px;
+    border: 1px solid rgb(247,247,247);
+}
+
+.b1_1 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 68, 0);
+    margin: 15px;
+}
+
+.b1_2 {
+    position: absolute;
+    width: 145px;
+    height: 27px;
+    border: 1px solid rgb(191,191,191);
+    left: 172px;
+    top: 165px;
+}
+
+.b1_3 {
+    position: absolute;
+    width: 145px;
+    height: 27px;
+    border: 1px solid rgb(191,191,191);
+    left: 172px;
+    top: 210px;
+}
+
+.b1_4 {
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    background: rgb(255, 68, 0);
+    color: white;
+    text-align: center;
+    top: 258px;
+    left: 20px;
+}
+
+.b1_5 {
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    background: rgb(255, 68, 0);
+    color: white;
+    text-align: center;
+    top: 258px;
+    left: 135px;
+}
+
+.b1_6 {
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    background: rgb(255, 68, 0);
+    color: white;
+    text-align: center;
+    top: 258px;
+    left: 245px;
+}
+
+.body2 {
+    width: 348px;
+    height: 60px;
+    border: 1px solid rgb(247,247,247);
+}
+
+.b2_1 {
+    width: 300px;
+    height: 30px;
+    margin: 12px auto;
+    border: 1px solid rgb(191,191,191);
+}
+
+.body3 {
+    width: 348px;
+    height: 300px;
+    border: 1px solid rgb(247,247,247);
+}
+
+.chf {
+    width: 150px;
+    height: 200px;
+    border: 1px solid rgb(247,247,247);
+    border-top: none;
+}
+
+.yc {
+    width: 65px;
+    height: 100px;
+    border: 1px solid rgb(247,247,247);
+    position: absolute;
+    top: 368px;
+    left: 160px;
+}
+
+.lx {
+    width: 65px;
+    height: 100px;
+    border: 1px solid rgb(247,247,247);
+    position: absolute;
+    top: 368px;
+    left: 226px;
+}
+
+.bx {
+    width: 65px;
+    height: 100px;
+    border: 1px solid rgb(247,247,247);
+    position: absolute;
+    top: 368px;
+    left: 291px;
+}
+
+.cp {
+    width: 65px;
+    height: 99px;
+    border: 1px solid rgb(247,247,247);
+    position: absolute;
+    top: 469px;
+    left: 160px;
+}
+
+.dy {
+    width: 65px;
+    height: 99px;
+    border: 1px solid rgb(247,247,247);
+    position: absolute;
+    top: 469px;
+    left: 226px;
+}
+
+.dwm {
+    width: 65px;
+    height: 99px;
+    border: 1px solid rgb(247,247,247);
+    position: absolute;
+    top: 469px;
+    left: 291px;
+}
+
+.lc {
+    width: 74px;
+    height: 98px;
+    border: 1px solid rgb(247,247,247);
+    position: absolute;
+    top: 570px;
+    left: 9px;
+}
+
+.zfw {
+    width: 74px;
+    height: 98px;
+    border: 1px solid rgb(247,247,247);
+    position: absolute;
+    top: 570px;
+    left: 85px;
+}
+
+.yy {
+    width: 65px;
+    height: 98px;
+    border: 1px solid rgb(247,247,247);
+    position: absolute;
+    top: 570px;
+    left: 160px;
+}
+
+.sdm {
+    width: 65px;
+    height: 98px;
+    border: 1px solid rgb(247,247,247);
+    position: absolute;
+    top: 570px;
+    left: 226px;
+}
+
+.hcp {
+    width: 65px;
+    height: 98px;
+    border: 1px solid rgb(247,247,247);
+    position: absolute;
+    top: 570px;
+    left: 291px;
+}
+
+.bigrect {
+    position: relative;
+    left: 52px;
+    top: 32px;
+    width: 50px;
+    height: 100px;
+    background: rgb(255, 68, 0);
+}
+
+.rect {
+    width: 50px;
+    height: 50px;
+    margin: 10px auto;
+    background: rgb(255, 68, 0);
+}
+
+.text_diff{
+	position: relative;
+	text-align: center;
+top: 42px;
+}
+
+.text {
+    text-align: center;
+}

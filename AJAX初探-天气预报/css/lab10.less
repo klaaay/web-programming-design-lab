@@ -1,0 +1,124 @@
+@charset"utf-8";
+
+@bgcolor:#999999;
+
+.container{
+    background-color:@bgcolor;
+    margin-top:20px;
+    margin-bottom:50px;
+    padding-bottom:20px;
+
+    i{
+        font-size: 2em;
+        color:#EE6342;
+        margin-top: 5px;
+        padding-right: 10px;
+    }    
+    #city{
+        font-size:1.6em;
+        font-weight: bold;
+        color:#CDCDCD;
+        margin-top: 5px;
+    }
+
+    .air{
+        max-width: 120px;
+        height: 50px;
+        background-color: #6B6B6B;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        display: flex;
+        justify-content: center;
+
+        .air-decoration{
+            margin-left: -12px;
+            width:40px;
+            height: 40px;
+            border-radius: 100%;
+            background-color: #D7AF0E;
+            align-self: center;
+            display: flex;
+            justify-content: flex-end;
+            i{
+                color:white;
+            }
+        }
+
+        .text{
+            margin-left: 5px;
+            align-self: center;
+            font-size: 1.2em;
+            color:white;
+        }
+    }
+
+    .row:nth-child(3){
+        display: flex;
+        #temp-now{
+            font-size: 10em;
+            font-weight: bold;
+            color:white;
+        }
+        #temp-text-now{
+            font-size:3em;
+            font-weight: bold;
+            color:white;
+        }
+        .Horizontal{
+            align-self: baseline;
+        }
+    }
+
+    .row:nth-child(4){
+
+        i{
+            color:white;
+        }
+
+        span{
+            font-size:2em;
+            font-weight: bold;
+            color:#E6E6E6;
+        }
+    }
+
+    .table{
+       
+        background-color: #333333;
+        font-size: 1.5em;
+        color:#E0E0E0;
+         caption{
+            background-color: #333333;
+            font-size:1.5em;
+            color:#E0E0E0;
+            padding-left: 10px;
+        }
+        tr{
+            // display: flex;
+            td{
+            // padding:20px 0;
+            padding-left:15px;
+            padding-top:50px;
+            // align-self: center;
+            }
+        }
+
+        .uv{
+            background-color:#894699;
+        }
+    }
+
+    .carousel-inner{
+        .item{
+            width: 100%;
+            height: 100px;
+            div{
+                text-align: center;
+            }
+        }
+        
+    }
+
+}

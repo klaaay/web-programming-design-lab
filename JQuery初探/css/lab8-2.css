@@ -1,0 +1,17 @@
+.navigation{
+	display: flex;
+}
+
+.nav{
+	flex-basis: 10%;
+	height: 20px;
+	background: white;
+	border:1px solid black;
+}
+
+.block{
+	width: 600px;
+	height: 600px;
+	background: #ccc;
+	border:1px solid black;
+}

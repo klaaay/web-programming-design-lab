@@ -1,0 +1,76 @@
+.item {
+    color: white;
+    background: #0069B4;
+    border-radius: 5px;
+    padding: 5px 0px;
+    font-size: .9em;
+    margin-right: 40px;
+}
+
+.image {
+    width: 100%;
+    height: 80px;
+    background: #666666;
+    margin-top: 10px;
+}
+
+.PPT {
+    width: 20%;
+    height: 20px;
+    background: #FF7935;
+    color: white;
+    font-size:0.8em;
+    font-weight: bold;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.body-grid {
+    border: 1px solid #F4F4F4;
+}
+
+.body-grid-differ {
+    border-bottom: none;
+}
+
+.body-footer {
+    margin-top: 30px;
+    margin-left: 5px;
+    color: #D3D3D3;
+    font-size: 0.8em;
+}
+
+
+.view {
+    margin-right: 5px;
+    padding-right: 5px;
+    border-right: 1px solid #D3D3D3;
+}
+
+.log {
+    margin-right: 5px;
+    padding-right: 5px;
+    border-right: 1px solid white;
+}
+
+.riband-hidden {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+    overflow: hidden;
+}
+
+.riband {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    width: 150px;
+    height: 30px;
+    position: relative;
+    top: -202px;
+    left: 251px;
+    transform: rotate(405deg);
+    background: #0092F1;
+}
+

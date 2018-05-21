@@ -1,0 +1,24 @@
+.rect {
+    width: 300px;
+    height: 300px;
+    background: rgb(221, 221, 221);
+}
+
+.triangle_1 {
+    width: 0;
+    height: 0;
+    border-width: 80px;
+    border-style: solid;
+    border-color: rgb(255, 102, 0) transparent transparent rgb(255, 102, 0);
+}
+
+.triangle_2 {
+    position: relative;
+    left: -80px;
+    top: -80px;
+    width: 0;
+    height: 0;
+    border-width: 40px;
+    border-style: solid;
+    border-color: white transparent transparent white;
+}
